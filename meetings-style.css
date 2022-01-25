@@ -1,0 +1,46 @@
+.section1{
+    background-color: rgb(33, 148, 187);
+    color:black;
+    padding-left: 2px;
+    
+   
+    
+}
+.space{
+    margin-bottom: 1%;
+    margin-top:1%;
+
+}
+.meeting-sec a:hover{
+color:black;
+}
+.meeting-sec li{
+  padding-left: 0%;
+    display: inline;
+}
+.meeting-sec li:active{
+    color:black;
+}
+.section1 h1{
+   padding-top:1%;
+   color:white;
+    padding-left: 15px;
+}
+ #date1{
+    width:102%;
+}
+.form1{
+    margin-right: 2em;
+    padding:1em ;
+}
+.form1 p{
+    color:white;
+}
+#btn{
+    background-color: rgb(9, 131, 172);
+    color:white
+}
+#nav-bar a:hover{
+    background-color: rgb(6, 134, 177);
+    
+}

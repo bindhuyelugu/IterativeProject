@@ -1,0 +1,26 @@
+#div2{
+    border:1px solid black;
+    
+    
+    width: 30%;
+
+}
+.secdiv{
+    display:inline;
+}
+.mainsec{
+    display: inline;
+    
+}
+div{
+   
+        float: left;
+        
+        width: 23%;
+        padding: 0 10px;
+        margin:0 0.5em;
+}
+.divlast{
+height:290px;
+text-align: center;
+}

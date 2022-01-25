@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calender-style.css">
+    <link rel="stylesheet" href="css/meetings-style.css">
+    <!-- <style>
+        @media(min-width:600px)
+        {
+        #hd1{
+            float:right;
+            width:s250px;
+
+        }
+    }
+    </style> -->
+    
+</head>
+<body>
+    <header id="hd1">
+        <nav id="nav-bar">
+            
+            <a href="calender-page.html">Calender</a>
+            <a href="add-a-meetings.html">Meetings</a>
+           <a href="Teams.html">Teams</a>
+            <span class="sec2"><span id="sec1">Hello Jane.doe@example.com!</span>
+               <a href="login.html">Logout</a>
+            
+        </nav>
+        </span>
+
+        
+    </header>
+    <main>
+        <h1>Meetings</h1>
+        <hr/>
+        <section class="meeting-sec">
+            <ul>
+            <li><a href="filter-search.html">Filter/search a meeting</a></li>
+            <li><a href="add-a-meetings.html">Add a Meeting</a></li>
+            </ul>
+        </section>
+        <section class="section1">
+            <h1>Add a new meeting</h1>
+            <hr/>
+        
+        <section  class="form1">
+            <form >
+            <label for="date1" class="space" >Date</label>
+            <br>
+            <input type="date" class="space" id="date1">
+            <br>
+            <label for="starttime" class="space">Start time(hh:mm)
+
+            </label>
+            <br>
+          <input type="time" class="space" ><br>
+          <label for="endtime" class="space">End time(hh:mm)</label><br>
+          <input type="time" class="space"><br>
+          <label for="des" class="space">Description</label><br>
+          <textarea rows=5% cols=163% id="des" class="space" placeholder="What is agenda of the meeting?"></textarea>
+          <br>
+          <label for="des1" class="space">EmailIDs of attendees/Teams's short</label><br>
+          <textarea rows=5% cols=163% id="des1"  class="space"placeholder="john@example.com, @annual-day, mark@example.com"></textarea>
+        
+        <p>Separate emailsids /team short names by commas- team short names always begin with @</p>
+            <button name="Add meeting" id="btn" >Add meeting
+                </button>
+    </form>
+        </section>
+    </section>
+    
+    
+</body>
+</html>
